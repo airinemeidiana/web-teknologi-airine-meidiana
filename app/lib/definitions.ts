@@ -28,14 +28,5 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  password: string; // password yang sudah di-hash
-  createdAt: string;
-}
-
-// Payload yang disimpan di dalam JWT Cookie
-export interface SessionPayload {
-  userId: string;
-  name: string;
-  email: string;
-  expiresAt: Date;
+  password: string;
 }
