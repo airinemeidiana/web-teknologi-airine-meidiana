@@ -87,22 +87,6 @@ export default function LoginForm() {
             </>
           )}
         </div>
-
-        {/* Informasi Akun Demo untuk Dosen / Penguji */}
-        <div className="mt-4 rounded-lg bg-blue-50 border border-blue-200 p-3 text-xs text-gray-700">
-          <p className="font-semibold text-blue-900 mb-1">Akun Demo</p>
-          <div className="space-y-0.5 font-mono text-[11px]">
-            <p>
-              <span className="font-sans font-medium text-gray-600">Nama:</span> Airine
-            </p>
-            <p>
-              <span className="font-sans font-medium text-gray-600">Email:</span> airine@gmail.com
-            </p>
-            <p>
-              <span className="font-sans font-medium text-gray-600">Password:</span> 123456
-            </p>
-          </div>
-        </div>
       </div>
     </form>
   );
